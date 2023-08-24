@@ -23,8 +23,11 @@ let questionArray =[
     "Enter a pronoun such as he, she or they"
 ];
 
-for(let i = numberOfQuestions; i>0; i--){
+let questionCounter = 0;
+for(let i = numberOfQuestions; i>=0; i--){
     console.log(i);
+    questionCounter++;
+    console.log(questionCounter);
 }
 
 
