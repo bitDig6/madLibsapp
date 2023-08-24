@@ -24,10 +24,11 @@ let questionArray =[
 ];
 
 let questionCounter = 0;
-for(let i = numberOfQuestions; i>=0; i--){
-    console.log(i);
+for(let i = numberOfQuestions; i>0; i--){
+    //console.log(i);
+    console.log(questionArray[questionCounter]);
     questionCounter++;
-    console.log(questionCounter);
+    //console.log(questionCounter);
 }
 
 
