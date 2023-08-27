@@ -26,6 +26,10 @@ let questionCounter = 0;
 for(let i = questionTotal; i>0; i--){
     //console.log(i);
     userInputs.push(prompt(questionArray[questionCounter]+`; (${questionTotal} questions left)`));
+    /*while(userInputs[questionCounter]=="Null"){
+        alert("The user didn't write anything!");
+        userInputs[questionCounter] = prompt(questionArray[questionCounter]+`; (${questionTotal} questions left)`);
+    }*/
     questionCounter++;
     //console.log(questionCounter);
     questionTotal--;
